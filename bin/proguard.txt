@@ -1,0 +1,19 @@
+# view AndroidManifest.xml #generated:25
+-keep class Taxi.Libre.InscChauffeurs { <init>(...); }
+
+# view AndroidManifest.xml #generated:22
+-keep class Taxi.Libre.InscClients { <init>(...); }
+
+# view AndroidManifest.xml #generated:19
+-keep class Taxi.Libre.Inscription { <init>(...); }
+
+# view AndroidManifest.xml #generated:28
+-keep class Taxi.Libre.Login { <init>(...); }
+
+# view AndroidManifest.xml #generated:11
+-keep class Taxi.Libre.TaxiLibre { <init>(...); }
+
+# onClick res/layout/login.xml #generated:20
+# onClick res/layout/login.xml #generated:26
+-keepclassmembers class * { *** onRadioButtonClicked(...); }
+
